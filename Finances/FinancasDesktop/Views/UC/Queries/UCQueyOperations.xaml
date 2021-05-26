@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="FinancasDesktop.Views.UC.Queries.UCQueyOperations"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinancasDesktop.Views.UC.Queries"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <Label Content="Consulta de Operações" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Consultar Operações" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="0" x:Name="btnQuryOperation" Grid.Column="0" Background="#FF0069C0" Padding="0" Click="btnQuryOperation_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
+            <Button Content="Consultar Operações Resumidas" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="0" x:Name="btnQuryOperationR" Grid.Column="1" Background="#FF0069C0" Padding="0" Click="btnQuryOperationR_Click"  HorizontalAlignment="Left" VerticalAlignment="Center"></Button>
+        </Grid>
+
+        <Grid Grid.Row="2" Margin="5">
+            <DataGrid x:Name="dtgOperations" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding DateTimeOperation}" Width="*" Header="Data da Operação"/>
+                    <DataGridTextColumn Binding="{Binding Ativo}" Header="Ativo" Width="*"/>
+                    <DataGridTextColumn Binding="{Binding TypeOperation}" Width="*" Header="Tipo da Operação"/>
+                    <DataGridTextColumn Binding="{Binding Amount}" Width="*" Header="Quantidade"/>
+                    <DataGridTextColumn Binding="{Binding Price}" Width="*" Header="Preço"/>
+                    <DataGridTextColumn Binding="{Binding Account}" Width="*" Header="Conta"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>        
+    </Grid>
+</UserControl>

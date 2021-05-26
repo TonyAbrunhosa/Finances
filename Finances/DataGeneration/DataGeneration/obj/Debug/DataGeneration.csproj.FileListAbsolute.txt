@@ -1,0 +1,13 @@
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\DataGeneration.exe.config
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\DataGeneration.exe
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\DataGeneration.pdb
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\FinancasDesktop.exe
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\FinancasDesktop.pdb
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\FinancasDesktop.exe.config
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.csprojAssemblyReference.cache
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.csproj.CoreCompileInputs.cache
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.csproj.CopyComplete
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.exe
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.pdb
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Newtonsoft.Json.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Newtonsoft.Json.xml
