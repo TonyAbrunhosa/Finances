@@ -1,0 +1,12 @@
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\bin\Debug\net5.0\FinancasAPI.Domain.deps.json
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\bin\Debug\net5.0\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\bin\Debug\net5.0\ref\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\bin\Debug\net5.0\FinancasAPI.Domain.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.csprojAssemblyReference.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.AssemblyInfoInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.AssemblyInfo.cs
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.csproj.CoreCompileInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\ref\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Domain\obj\Debug\net5.0\FinancasAPI.Domain.pdb

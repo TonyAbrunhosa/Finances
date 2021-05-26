@@ -1,0 +1,15 @@
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.csprojAssemblyReference.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.GeneratedMSBuildEditorConfig.editorconfig
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.AssemblyInfoInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.AssemblyInfo.cs
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\FinancasAPI.Infra.deps.json
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\FinancasAPI.Infra.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\ref\FinancasAPI.Infra.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\FinancasAPI.Infra.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\bin\Debug\net5.0\FinancasAPI.Domain.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.csproj.CoreCompileInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.csproj.CopyComplete
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\ref\FinancasAPI.Infra.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Infra\obj\Debug\net5.0\FinancasAPI.Infra.pdb

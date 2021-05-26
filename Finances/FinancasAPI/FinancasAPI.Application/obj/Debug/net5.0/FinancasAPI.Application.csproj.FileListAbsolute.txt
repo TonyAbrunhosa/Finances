@@ -1,0 +1,17 @@
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Application.deps.json
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Application.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\ref\FinancasAPI.Application.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Application.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Domain.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Infra.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Domain.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\bin\Debug\net5.0\FinancasAPI.Infra.pdb
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.csprojAssemblyReference.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.AssemblyInfoInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.AssemblyInfo.cs
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.csproj.CoreCompileInputs.cache
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.csproj.CopyComplete
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\ref\FinancasAPI.Application.dll
+B:\Projetos\Finances\Finances\FinancasAPI\FinancasAPI.Application\obj\Debug\net5.0\FinancasAPI.Application.pdb
