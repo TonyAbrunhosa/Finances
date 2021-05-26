@@ -72,10 +72,7 @@ namespace FinancasDesktop.Views.UC.Queries
                     ColPrice.Visibility = Visibility.Collapsed;
                     ColAccount.Visibility = Visibility.Collapsed;
                     ColAveragePrice.Visibility = Visibility.Visible;
-                    break;
-                //case "":
-                //    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation");
-                //    break;
+                    break;                
                 default:
                     break;
             }
