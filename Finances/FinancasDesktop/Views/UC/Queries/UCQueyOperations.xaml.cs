@@ -1,4 +1,5 @@
-﻿using FinancasDesktop.Entities;
+﻿using FinancasDesktop.Conexao;
+using FinancasDesktop.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,24 +27,58 @@ namespace FinancasDesktop.Views.UC.Queries
             InitializeComponent();
         }
 
-        private void btnQuryOperation_Click(object sender, RoutedEventArgs e)
+        private void btn_Click(object sender, RoutedEventArgs e)
         {
-            List<Operation> operations = new List<Operation>();
-            Operation operation = new Operation();
-            operation.DateTimeOperation = DateTime.Now;
-            operation.Ativo = "PETR4";
-            operation.TypeOperation = "C";
-            operation.Amount = 100;
-            operation.Price = 25.31m;
-            operation.Account = 2154;
-            operations.Add(operation);
+            Button button = sender as Button;
 
-            dtgOperations.ItemsSource = operations;
-        }
-
-        private void btnQuryOperationR_Click(object sender, RoutedEventArgs e)
-        {
-
+            switch (button.Content)
+            {
+                case "Todas Operações":
+                    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation");
+                    ColAtivo.Visibility = Visibility.Visible;
+                    ColDateTimeOperation.Visibility = Visibility.Visible;
+                    ColTypeOperation.Visibility = Visibility.Visible;
+                    ColAmount.Visibility = Visibility.Visible;
+                    ColPrice.Visibility = Visibility.Visible;
+                    ColAccount.Visibility = Visibility.Visible;
+                    ColAveragePrice.Visibility = Visibility.Collapsed;
+                    break;
+                case "Operações por Ativos":
+                    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation/GetByAtivo");
+                    ColAtivo.Visibility = Visibility.Visible;
+                    ColDateTimeOperation.Visibility = Visibility.Collapsed;                    
+                    ColTypeOperation.Visibility = Visibility.Collapsed;
+                    ColAmount.Visibility = Visibility.Visible;
+                    ColPrice.Visibility = Visibility.Collapsed;
+                    ColAccount.Visibility = Visibility.Collapsed;
+                    ColAveragePrice.Visibility = Visibility.Visible;
+                    break;
+                case "Operações por Conta":
+                    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation/GetByAccount");
+                    ColAtivo.Visibility = Visibility.Collapsed;
+                    ColDateTimeOperation.Visibility = Visibility.Collapsed;
+                    ColTypeOperation.Visibility = Visibility.Collapsed;
+                    ColAmount.Visibility = Visibility.Visible;
+                    ColPrice.Visibility = Visibility.Collapsed;
+                    ColAccount.Visibility = Visibility.Visible;
+                    ColAveragePrice.Visibility = Visibility.Visible;
+                    break;
+                case "Operações por tipo de operação":
+                    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation/GetByTypeOperations");
+                    ColAtivo.Visibility = Visibility.Collapsed;
+                    ColDateTimeOperation.Visibility = Visibility.Collapsed;
+                    ColTypeOperation.Visibility = Visibility.Visible;
+                    ColAmount.Visibility = Visibility.Visible;
+                    ColPrice.Visibility = Visibility.Collapsed;
+                    ColAccount.Visibility = Visibility.Collapsed;
+                    ColAveragePrice.Visibility = Visibility.Visible;
+                    break;
+                //case "":
+                //    dtgOperations.ItemsSource = AcessoApi.Get<Operation>("Operation");
+                //    break;
+                default:
+                    break;
+            }
         }
     }
 }

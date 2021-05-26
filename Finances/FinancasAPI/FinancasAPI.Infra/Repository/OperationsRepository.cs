@@ -83,8 +83,8 @@ namespace FinancasAPI.Infra.Repository
                 {
                     Ativo = t.Key.Ativo,
                     TypeOperation = t.Key.TypeOperation,
-                    BuyPrice = t.Sum(x=> x.Price),
-                    SalePrice = t.Sum(x=>x.Price)
+                    BuyPrice = t.Key.TypeOperation == "C" ? t.Sum(x=> x.Price) : 0,
+                    SalePrice = t.Key.TypeOperation == "V" ? t.Sum(x => x.Price) : 0
                 });
             });
         }
