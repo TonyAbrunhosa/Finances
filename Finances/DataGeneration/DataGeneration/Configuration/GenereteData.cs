@@ -36,10 +36,11 @@ namespace DataGeneration.Configuration
         public List<int> ListarAccount()
         {
             var listAccount = new List<int>();
+            Random random = new Random();
 
             for (int i = 0; i < 18; i++)
             {
-                listAccount.Add(new Random().Next(1000, 9999));
+                listAccount.Add(random.Next(1000, 9999));
             }
 
             return listAccount;

@@ -31,17 +31,18 @@ namespace DataGeneration
         private static void CreateDadosOperations(List<int> accounts, List<Ativos> ativos)
         {            
             List<Operation> operations = new List<Operation>();
-            
+            Random random = new Random();
+
             for (int i = 0; i < 20000; i++)
             {
-                var randomAccount = new Random().Next(17);
-                var randomAtivos = new Random().Next(17);
-                var amount = new Random().Next(200);
-                decimal baseSum = new Random().Next(20);
+                var randomAccount = random.Next(0,17);
+                var amount = random.Next(200);
+                var randomAtivos = random.Next(0,17);
+                decimal baseSum = random.Next(20);
                 decimal price = ativos[randomAtivos].VALOR;
                 decimal percentage = ((baseSum / 100) * price);
-                var baseTypeOperation = new Random().Next(2);
-                var day = new Random().Next(150);
+                var baseTypeOperation = random.Next(1,2);
+                var day = random.Next(150);
 
                 Operation operation = new Operation
                 {
