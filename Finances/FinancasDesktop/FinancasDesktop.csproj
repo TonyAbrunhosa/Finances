@@ -71,6 +71,7 @@
     </ApplicationDefinition>
     <Compile Include="Classes\Convertions\Conversores.cs" />
     <Compile Include="Classes\Convertions\ConvertDate.cs" />
+    <Compile Include="Classes\Convertions\ConvertMoeda.cs" />
     <Compile Include="Classes\Convertions\ConvertTypeOperation.cs" />
     <Compile Include="Classes\LogEx.cs" />
     <Compile Include="Conexao\AcessoApi.cs" />

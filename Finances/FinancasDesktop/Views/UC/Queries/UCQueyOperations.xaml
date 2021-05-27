@@ -11,12 +11,14 @@
         <ResourceDictionary>
             <conv:ConvertTypeOperation x:Key="ConvertTypeOperation"/>
             <conv:ConvertDate x:Key="ConvertDate"/>
+            <conv:ConvertMoeda x:Key="ConvertMoeda"/>
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Margin="0,0,0,10">
@@ -25,7 +27,7 @@
 
         <Grid Grid.Row="1" Margin="0,0,0,10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="240"/>
+                <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
@@ -45,18 +47,38 @@
             <Grid Grid.Column="1" Margin="5">
                 <DataGrid x:Name="dtgOperations" AutoGenerateColumns="False">
                     <DataGrid.Columns>
+                        <DataGridTextColumn x:Name="ColAccount" Binding="{Binding Account}" Width="*" Header="Conta"/>
                         <DataGridTextColumn x:Name="ColDateTimeOperation" Binding="{Binding DateTimeOperation, Converter={StaticResource ConvertDate}}" Width="*" Header="Data da Operação"/>
                         <DataGridTextColumn x:Name="ColAtivo" Binding="{Binding Ativo}" Header="Ativo" Width="*"/>
                         <DataGridTextColumn x:Name="ColTypeOperation" Binding="{Binding TypeOperation, Converter={StaticResource ConvertTypeOperation}}" Width="*" Header="Tipo da Operação"/>
                         <DataGridTextColumn x:Name="ColAmount" Binding="{Binding Amount}" Width="*" Header="Quantidade"/>
-                        <DataGridTextColumn x:Name="ColPrice" Binding="{Binding Price}" Width="*" Header="(R$)Preço"/>
-                        <DataGridTextColumn x:Name="ColAccount" Binding="{Binding Account}" Width="*" Header="Conta"/>
-                        <DataGridTextColumn x:Name="ColAveragePrice" Binding="{Binding AveragePrice}" Width="*" Header="(R$)Preço médio"/>
+                        <DataGridTextColumn x:Name="ColPrice" Binding="{Binding Price, Converter={StaticResource ConvertMoeda}}" Width="*" Header="(R$)Preço">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>                        
+                        <DataGridTextColumn x:Name="ColAveragePrice" Binding="{Binding AveragePrice, Converter={StaticResource ConvertMoeda}}" Width="*" Header="(R$)Preço médio">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
         </Grid>
 
-              
+        <Grid Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Tempo do Retorno: " Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            <Label Content="0" x:Name="lblTimeRequest" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Grid>
     </Grid>
 </UserControl>

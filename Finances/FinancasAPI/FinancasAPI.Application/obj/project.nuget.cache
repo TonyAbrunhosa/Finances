@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6GSeg8QWnbf/U7WI6aNCf9uCOsMLXbQku7eV2ChJ7dbtDaWw5tznw6kO5az5UBoEqOAMc1rpjmap0fFXZTzvzw==",
+  "dgSpecHash": "AJewpgJFA3ykcm8IA35w8TMkYItOWJnzU71vnXkTlxYzdMFK19VYeTKfUEjKKwQT+19RRp5TRcUd3FvlYTTs2w==",
   "success": true,
   "projectFilePath": "B:\\Projetos\\Finances\\Finances\\FinancasAPI\\FinancasAPI.Application\\FinancasAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

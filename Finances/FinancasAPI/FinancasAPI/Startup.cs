@@ -38,7 +38,7 @@ namespace FinancasAPI
                     .AllowAnyMethod();
                 });
             });
-
+            services.AddMemoryCache();
             services.AddSwagger("Operations API", "v1");
 
             services.AddResponseCompression(options =>

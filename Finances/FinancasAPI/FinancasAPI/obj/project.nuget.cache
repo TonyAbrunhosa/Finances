@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jD3++/whS0tUIULfoegNwPGNrwVVS9VpbBqXfH+JKeBG7msrxLoz7ncY26UUri3tcnCiWT2Lth+hdwYllrx8WQ==",
+  "dgSpecHash": "NpCLvRHyL+HS7pXjEDGCmZCtguZOfiex2tEUi/6jc+q/0IfK2gZuPCj/KdnI+syLb9ctdqhklJPMXx17BkPLmw==",
   "success": true,
   "projectFilePath": "B:\\Projetos\\Finances\\Finances\\FinancasAPI\\FinancasAPI\\FinancasAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.6\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.6.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Tony Abrunhosa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

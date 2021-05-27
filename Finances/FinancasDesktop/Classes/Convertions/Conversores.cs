@@ -66,6 +66,64 @@ namespace FinancasDesktop.Classes.Convertions
             }
             return resultado;
         }
+
+        public static decimal ToDecimal(this object value)
+        {
+            try
+            {
+                string resultado;
+                if (value == null)
+                {
+                    return 0;
+                }
+
+                resultado = value.ToString().Replace("R$ ", "").Replace("%", "");
+
+                if (Decimal(resultado))
+                {
+                    return decimal.Parse(resultado, provider);
+                }
+            }
+            catch { }
+            return 0;
+        }
+
+        public static decimal? ToDecimalOrNull(this object value)
+        {
+            try
+            {
+                string resultado;
+                if (value == null)
+                {
+                    return null;
+                }
+
+                resultado = value.ToString().Replace("R$ ", "").Replace("%", "");
+
+                if (Decimal(resultado))
+                {
+                    return decimal.Parse(resultado, provider);
+                }
+            }
+            catch { }
+            return null;
+        }
+        private static bool Decimal(string valor)
+        {
+            try
+            {
+                if (decimal.TryParse(valor, out decimal resultado))
+                {
+                    return true;
+                }
+
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
+        }
         public static string EncodeToBase64(this string texto)
         {
             try

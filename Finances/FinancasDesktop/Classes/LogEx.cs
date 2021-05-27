@@ -171,5 +171,40 @@ namespace FinancasDesktop.Classes
                 texto.WriteLine(" ");
             }
         }
+
+        public static void GeraLogSimples(string Mensagem, string NomeArquivo)
+        {
+            string thisPath = "";
+            string file = (NomeArquivo + DateTime.Now.ToString("yyyyMMdd"));
+            string date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+
+            #region Criar diretorio e arquivo
+            if (!File.Exists(Path + file + ".txt"))
+            {
+                Directory.CreateDirectory(Path);
+
+                using (File.CreateText(Path + file + ".txt"))
+                {
+                    thisPath = Path + file + ".txt";
+                }
+            }
+            else
+            {
+                thisPath = Path + file + ".txt";
+            }
+            #endregion
+
+            using (StreamWriter texto = new StreamWriter(thisPath, true))
+            {
+                texto.WriteLine("<<começo Mensagem " + date + ">>____________________________________________________________<<começo Mensagem " + date + ">>");
+                texto.WriteLine("<<Versão: " + 1.0 + ">>");
+                texto.WriteLine(" ");
+                texto.WriteLine(Mensagem);
+                texto.WriteLine(" ");
+                texto.WriteLine("<<fim Mensagem---------------------->>____________________________________________________________<<fim Mesagem---------------------->>");
+                texto.WriteLine(" ");
+                texto.WriteLine(" ");
+            }
+        }
     }
 }
