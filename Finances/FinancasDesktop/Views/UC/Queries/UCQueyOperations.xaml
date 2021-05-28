@@ -37,11 +37,14 @@
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
                 <Button Content="Todas Operações" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="0" x:Name="btnQuryOperation" Grid.Column="0" Background="#FF0069C0" Padding="0" Click="btn_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
                 <Button Content="Operações por Ativos" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="1" x:Name="btnAtivo" Grid.Column="1" Background="#FF0069C0" Padding="0" Click="btn_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
                 <Button Content="Operações por Conta" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="2" x:Name="btnAccount" Grid.Column="1" Background="#FF0069C0" Padding="0" Click="btn_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
                 <Button Content="Operações por tipo de operação" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="3" x:Name="btnTypeOper" Grid.Column="1" Background="#FF0069C0" Padding="0" Click="btn_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
+                <Button Content="Exportar" Margin="3" Width="240" Height="30" FontSize="16" Grid.Row="5" x:Name="btnExport" Grid.Column="1" Background="#FF0069C0" Padding="0" Click="btn_Click"  HorizontalAlignment="Right" VerticalAlignment="Center"></Button>
             </Grid>
 
             <Grid Grid.Column="1" Margin="5">

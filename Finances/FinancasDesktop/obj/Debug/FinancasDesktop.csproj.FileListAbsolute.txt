@@ -43,3 +43,10 @@ B:\Projetos\Finances\Finances\FinancasDesktop\obj\Debug\FinancasDesktop.csproj.C
 B:\Projetos\Finances\Finances\FinancasDesktop\obj\Debug\FinancasDesktop.csproj.CopyComplete
 B:\Projetos\Finances\Finances\FinancasDesktop\obj\Debug\FinancasDesktop.exe
 B:\Projetos\Finances\Finances\FinancasDesktop\obj\Debug\FinancasDesktop.pdb
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\ClosedXML.dll
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\DocumentFormat.OpenXml.dll
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\ExcelNumberFormat.dll
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\ClosedXML.pdb
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\ClosedXML.xml
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\DocumentFormat.OpenXml.xml
+B:\Projetos\Finances\Finances\FinancasDesktop\bin\Debug\ExcelNumberFormat.xml

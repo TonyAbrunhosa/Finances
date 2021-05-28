@@ -11,7 +11,7 @@ namespace FinancasDesktop.Conexao
 {
     public static class AcessoApi
     {
-        public static List<T> Get<T>(string endpoint)
+        public static T Get<T>(string endpoint)
         {
             HttpClientHandler handler = new HttpClientHandler();
             var url = "http://localhost:7300/api/v1/" + endpoint;
@@ -33,28 +33,28 @@ namespace FinancasDesktop.Conexao
                                 LogEx.GeraLogSimples(retorno.Data.ToString());
                             }
 
-                            return JsonConvert.DeserializeObject<List<T>>(retorno.Data.ToString());
+                            return JsonConvert.DeserializeObject<T>(dados);
                         }
                         else if (response.Result.StatusCode == HttpStatusCode.NotFound)
                         {
-                            LogEx.GeraLogSimples($"NotFound");
-                            return null;
+                            LogEx.GeraLogSimples($"NotFound");                            
                         }
                         else
                         {
                             var dados = response.Result.Content.ReadAsStringAsync().Result;
                             var retorno = JsonConvert.DeserializeObject<CommandResult>(dados);
 
-                            LogEx.GeraLogSimples($"Status: { retorno.Success}\nMensagem {retorno.Message}");
-                            return null;
+                            LogEx.GeraLogSimples($"Status: { retorno.Success}\nMensagem {retorno.Message}");                            
                         }
+
+                        return default(T);
                     }
                 }
             }
             catch (Exception ex)
             {
                 ex.GerarLog();
-                return null;
+                return default(T);
             }
 
         }        
