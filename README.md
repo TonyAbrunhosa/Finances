@@ -13,5 +13,21 @@
 Faça o clone do projeto ou Download, abra no seu visual studio e compile a solução, em seguida verifique na pasta bin do projeto da API se possui o arquivo 'DataOperations.json',
 se não existir execute apenas o projeto console 'DataGenerate', em segundos será criado o arquivo na pasta bin do console, copie o arquivo e cole na pasta bin do projeto da API,
 na sequência execute o projeto do desktop e a API. Com os dois projetos em execução clique nos botões da aplicação WPF para gerar as consultas.
-
 </p>
+
+<p></p>
+<p></p>
+
+![image](https://user-images.githubusercontent.com/37698049/119929883-bfbe2600-bf54-11eb-9412-66b8462c69af.png)
+
+<p></p>
+<p></p>
+
+![image](https://user-images.githubusercontent.com/37698049/119930040-1166b080-bf55-11eb-9a5c-1c1eddc37afe.png)
+
+<p></p>
+<p></p>
+
+![image](https://user-images.githubusercontent.com/37698049/119930415-c731ff00-bf55-11eb-956d-c5e8a7f02cf1.png)
+
+
