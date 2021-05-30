@@ -11,3 +11,15 @@ B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGenera
 B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\obj\Debug\DataGeneration.pdb
 B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Newtonsoft.Json.dll
 B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Newtonsoft.Json.xml
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\ClosedXML.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Polly.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\DocumentFormat.OpenXml.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\ExcelNumberFormat.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\System.ValueTuple.dll
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\ClosedXML.pdb
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\ClosedXML.xml
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Polly.pdb
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\Polly.xml
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\DocumentFormat.OpenXml.xml
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\ExcelNumberFormat.xml
+B:\Projetos\Finances\Finances\DataGeneration\DataGeneration\bin\Debug\System.ValueTuple.xml
